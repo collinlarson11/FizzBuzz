@@ -1,9 +1,9 @@
 ﻿namespace FizzBuzz.Library;
 
-public class FizzBuzz
+public class FizzBuzzGame
 {
     public string Play(int top)
     {
-        throw NotImplementedException("Not Yet");
+        return "1";
     }
 }
