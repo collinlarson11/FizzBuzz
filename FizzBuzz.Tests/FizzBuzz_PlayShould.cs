@@ -9,8 +9,8 @@ public sealed class FizzBuzz_PlayShould
     {
         FizzBuzzGame game = new FizzBuzzGame();
 
-        string result = game.Play(1);
+        string result = game.Play(2);
 
-        Assert.AreEqual("1", result);
+        Assert.AreEqual("1,2", result);
     }
 }
